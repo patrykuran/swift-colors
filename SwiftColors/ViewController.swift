@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var previewContainer: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        previewContainer.backgroundColor = UIColor.randomColor()
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +23,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func actionRandomColor(_ sender: Any) {
+        previewContainer.backgroundColor = UIColor.randomColor()
+    }
 
 }
 

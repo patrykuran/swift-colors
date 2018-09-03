@@ -14,6 +14,7 @@
 		728FED09213BFC12004096DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728FED07213BFC12004096DC /* LaunchScreen.storyboard */; };
 		728FED14213BFC13004096DC /* SwiftColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728FED13213BFC13004096DC /* SwiftColorsTests.swift */; };
 		728FED1F213BFC13004096DC /* SwiftColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728FED1E213BFC13004096DC /* SwiftColorsUITests.swift */; };
+		728FED2E213DA32D004096DC /* UIColor+RandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728FED2D213DA32D004096DC /* UIColor+RandomColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		728FED1A213BFC13004096DC /* SwiftColorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftColorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		728FED1E213BFC13004096DC /* SwiftColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftColorsUITests.swift; sourceTree = "<group>"; };
 		728FED20213BFC13004096DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		728FED2D213DA32D004096DC /* UIColor+RandomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+RandomColor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		728FECFD213BFC0B004096DC /* SwiftColors */ = {
 			isa = PBXGroup;
 			children = (
+				728FED2C213DA315004096DC /* Extensions */,
 				728FECFE213BFC0C004096DC /* AppDelegate.swift */,
 				728FED00213BFC0C004096DC /* ViewController.swift */,
 				728FED02213BFC0C004096DC /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				728FED20213BFC13004096DC /* Info.plist */,
 			);
 			path = SwiftColorsUITests;
+			sourceTree = "<group>";
+		};
+		728FED2C213DA315004096DC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				728FED2D213DA32D004096DC /* UIColor+RandomColor.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				728FED01213BFC0C004096DC /* ViewController.swift in Sources */,
+				728FED2E213DA32D004096DC /* UIColor+RandomColor.swift in Sources */,
 				728FECFF213BFC0C004096DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
